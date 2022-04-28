@@ -1,0 +1,265 @@
+*{
+       box-sizing: border-box;
+    margin: 0;
+    padding: 0;  
+    background-image: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+html {
+       scroll-behavior: smooth;
+}
+   
+.flex-container {
+        
+        display: flex;
+       justify-content: flex-end ;
+       background-color: rgb(255, 255, 255);
+       padding: 20px;
+       padding-right: 150px;
+         
+}
+   
+section[id] {
+       scroll-margin-top: 70px;
+}
+   
+.item {
+       margin: 3px;
+}
+   
+h2{
+       margin-top:0px;
+       margin-left:100px;
+}
+   
+.box {
+       display: flex;
+       justify-content: flex-end ;
+       margin-right: 20px;
+       background-color: rgb(216, 216, 216);
+       
+}
+
+hr {
+       position: relative;
+       background-color: #967ead;
+       width: 100%;
+       height: 2px;
+}
+
+.HR-1 {
+    width: 0%;
+    
+    
+}
+
+.separador {
+       margin: 0;
+       padding-top: 9px;
+       padding-left: 17px;
+}
+
+input.src {
+       padding: 1px 19px 1px 20px;
+       outline: none;
+       font-size: 17px;
+       border-radius: 5px;
+       color: rgb(0, 0, 0);
+       background: rgb(216, 216, 216);
+       width: 100px;
+       transition: all ;
+       text-align: center;
+       text-align: left;
+       border: 2px;
+}
+   
+input.src:hover {
+       /*width: 180px;
+       background-color: rgb(154, 177, 197);
+       border-color: #444;
+       box-shadow: 0 0 5px rgb(75, 20, 20); */
+      border-radius: 2px;
+}
+   
+.box:hover {
+      border-radius: 2px;
+}
+   
+.buscador {
+       position: relative;
+       top: 10px;
+       left: 9px;
+       border-radius: 2px;
+}
+.Logo {
+       position: absolute;
+      top: 0px;
+       left: 180px
+}
+   
+.Header {  
+       display: flex;
+       justify-content:  center;
+       background-color: #ffffff;
+
+}
+   
+.Header-div {
+       padding: 15px;
+       text-decoration: none;
+}
+   
+.Header-div-a {
+       color: black;
+       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       text-decoration: none;
+       font-size: larger;
+}
+   
+.Header-div-a:hover {
+       color: rgb(152, 121, 202);
+}
+
+   
+.Titulo-productos {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 30px;
+    color: #967ead;
+    text-align: left;
+    background-color: ;
+}
+
+.Titulo-descripcion {
+       display: flex;
+       justify-content: left;
+    margin-top: 2px;
+    font-size: medium;
+   
+    
+    
+    
+}
+
+li {
+    margin-left: 17px;
+    list-style-type: none;
+    
+
+}
+
+.Titulo-descripcion {
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.imagen {
+       width: 100%;
+       height: 400px;
+       background-size: 100% 100%;
+}
+
+
+
+.carrusel {
+       display: flex;
+      flex-wrap: wrap;
+      margin-left: 110px;
+      margin-bottom: 50px;
+}
+
+.card {
+
+      justify-content: space-between;
+       background-color: #f4f4f4;
+       border-radius: 5px;
+       width: 300px;
+       height: 370px;
+      border: 1px solid rgb(155, 155, 155);
+      margin-left: 60px;
+      margin-top: 50px;
+      
+      
+}
+
+.card-title {
+       padding-top: 10px;
+       text-align: left;
+       padding-left: 20px;
+       font-size: 20px;
+       border-top: 1px solid rgb(155, 155, 155);
+}
+
+.card-text {
+       padding-top: 10px;
+       text-align: left;
+       padding-left: 20px;
+       
+}
+
+.btn-primary {
+       text-decoration: none;
+       background-color: #967ead;
+       position: relative;
+       left: 20px;
+       top: 20px;
+       border-radius: 5px;
+       padding: 7px 13px;
+       color: #fff;
+}
+
+.btn-primary:hover {
+      background-color: #c9b2df;
+}
+
+
+
+footer {
+       
+        
+       background-color: #494960;
+       width: 100%;
+       height: 250px;
+       display: flex;
+       justify-content: space-between;
+       padding-left: 100px;
+}
+   
+.footer-links {
+       padding-top: 20px;
+}
+   
+.footer-img {
+    padding-left: 80px;
+}
+   
+.footer-info{
+       margin-left: 10px;
+       padding-top: 40px;
+}
+   
+   
+.footer-promo{
+       padding-top: 20px;
+       margin-right:150px;
+}
+   
+.footer-input {
+       
+       margin-top: 10px;
+       padding: 10px 10px;
+}
+   
+.footer-boton {
+       
+       margin-top: 5px;
+       padding: 5px;
+       border-radius: 3px;
+}
+   
+.icono {
+       margin-left: 5px;
+}
